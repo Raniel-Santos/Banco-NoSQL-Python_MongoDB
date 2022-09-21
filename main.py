@@ -4,7 +4,7 @@ import Produto.mainProduto as mainProduto
 import Vendedor.mainVendedor as mainVendedor
 import Usuario.mainUsuario as mainUsuario
 
-client = pymongo.MongoClient("mongodb+srv://Raniel:pjfUjNlp3PdH3Yh8@raniel-fatec.og59z6w.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
+client = pymongo.MongoClient("mongodb+srv://Raniel:@raniel-fatec.og59z6w.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
 
 ## global mydb
 mydb = client.mercado_livre
